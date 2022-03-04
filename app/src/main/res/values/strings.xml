@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Movies</string>
+
+    <string name="sort_by_default">Popularity</string>
+    <string name="page">Page&#160; %1d</string>
+
+    <!-- Genre list -->
+    <string name="all">All</string>
+    <string name="action">Action</string>
+    <string name="adventure">Adventure</string>
+    <string name="animation">Animation</string>
+    <string name="comedy">Comedy</string>
+    <string name="crime">Crime</string>
+    <string name="documentary">Documentary</string>
+    <string name="drama">Drama</string>
+    <string name="family">Family</string>
+    <string name="fantasy">Fantasy</string>
+    <string name="history">History</string>
+    <string name="horror">Horror</string>
+    <string name="music">Music</string>
+    <string name="mystery">Mystery</string>
+    <string name="romance">Romance</string>
+    <string name="sci_fi">Sci-Fi</string>
+    <string name="tv_movie">TV Movie</string>
+    <string name="thriller">Thriller</string>
+    <string name="war">War</string>
+    <string name="western">Western</string>
+
+    <!-- Sort by list -->
+    <string name="popularity">Popularity</string>
+    <string name="vote_average">Vote Average</string>
+    <string name="favorites">Favorites</string>
+
+    <string name="popularity_value" translatable="false">popularity.desc</string>
+    <string name="vote_average_value" translatable="false">vote_average.desc</string>
+    <string name="favorites_values" translatable="false">favorites_movies</string>
+
+    <string name="genre" translatable="false">genre</string>
+    <string name="keyword" translatable="false">keyword</string>
+    <string name="sort_by" translatable="false">sort_by</string>
+
+    <!-- Menu items -->
+    <string name="search">Search</string>
+    <string name="next_page">Next page</string>
+    <string name="previous_page">Previous page</string>
+    <string name="refresh">Refresh</string>
+
+    <string name="share">Share</string>
+    <string name="added_to_favorites">Added to favorites</string>
+
+    <!-- Fragments Titles -->
+    <string name="details">Details</string>
+    <string name="videos">Videos</string>
+    <string name="reviews">Reviews</string>
+
+    <string name="no_internet_connection_error">No internet connection!!</string>
+    <string name="no_results_error">No results!!</string>
+    <string name="this_is_the_first_page_info">This is the first page.</string>
+    <string name="already_favorite">Already favorite</string>
+    <string name="movie_poster_description" translatable="false">Movie poster</string>
+    <string name="empty_icon_description" translatable="false">Empty layout image</string>
+    <string name="video_image_description" translatable="false">Video icon</string>
+    <string name="delete_all">Delete all favorites</string>
+    <string name="release_date">Release date:&#160;&#160;&#160;%s</string>
+    <string name="no_results">NO RESULTS!</string>
+    <string name="no_videos">No videos!</string>
+    <string name="no_reviews">No reviews!</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:defaultValue="@string/popularity_value"
+        android:entries="@array/sort_by_list_labels"
+        android:summary="%s"
+        android:entryValues="@array/sort_by_list_values"
+        android:key="@string/sort_by"
+        android:title="Sort by" />
+
+    <PreferenceCategory android:title="Search by">
+
+        <EditTextPreference
+            android:inputType="text"
+            app:useSimpleSummaryProvider="true"
+            android:key="@string/keyword"
+            android:title="Keyword" />
+
+        <ListPreference
+            android:summary="%s"
+            android:defaultValue="@string/all"
+            android:entries="@array/genre_list_labels"
+            android:entryValues="@array/genre_list_values"
+            android:key="@string/genre"
+            android:title="Genre" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

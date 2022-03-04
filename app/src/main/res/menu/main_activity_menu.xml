@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favorites"
+        app:showAsAction="always"
+        android:title="@string/favorites"
+        android:icon="@drawable/favorite" />
+
+    <item
+        android:id="@+id/search"
+        app:showAsAction="always"
+        android:icon="@drawable/search"
+        android:title="@string/search" />
+
+    <item
+        android:id="@+id/previous_page"
+        android:icon="@drawable/before"
+        android:title="@string/previous_page"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/next_page"
+        android:icon="@drawable/next"
+        android:title="@string/next_page"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/refresh"
+        app:showAsAction="always"
+        android:title="@string/refresh" />
+
+</menu>

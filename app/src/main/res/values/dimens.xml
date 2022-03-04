@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- dp Dimensions -->
+    <dimen name="one_dp">1dp</dimen>
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="twelve_dp">12dp</dimen>
+    <dimen name="sixteen_dp">16dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="thirty_two_dimen">32dp</dimen>
+    <dimen name="sixty_dp">60dp</dimen>
+    <dimen name="one_hundred_dp">100dp</dimen>
+    <dimen name="three_hundred_dp">300dp</dimen>
+    <dimen name="four_hundred_dp">400dp</dimen>
+
+    <!-- sp Dimensions -->
+    <dimen name="fourteen_sp_text">14sp</dimen>
+    <dimen name="sixteen_sp_text">16sp</dimen>
+    <dimen name="twenty_sp_text">20sp</dimen>
+    <dimen name="twenty_four_sp_text">24sp</dimen>
+
+    <!-- px Dimensions -->
+    <dimen name="one_px">1px</dimen>
+
+</resources>
